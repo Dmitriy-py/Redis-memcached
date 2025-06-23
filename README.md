@@ -92,3 +92,6 @@ client.close()
 
 
 ```
+
+![Снимок экрана (1094)](https://github.com/user-attachments/assets/49184065-8c91-42ae-bca6-2e6c48de934b)
+
