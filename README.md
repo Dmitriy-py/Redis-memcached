@@ -95,3 +95,16 @@ client.close()
 
 ![Снимок экрана (1094)](https://github.com/user-attachments/assets/49184065-8c91-42ae-bca6-2e6c48de934b)
 
+## Задание 4. Запись данных в Redis
+
+### Запишите в Redis несколько ключей с любыми именами и значениями.
+
+Через redis-cli достаньте все записанные ключи и значения из базы, приведите скриншот этой операции.
+
+![Снимок экрана (1100)](https://github.com/user-attachments/assets/80338713-37c0-463e-a551-3fb147f0d3bd)
+
+![Снимок экрана (1101)](https://github.com/user-attachments/assets/3cc3c0e9-2633-429f-8088-a9eabfcd6dea)
+
+
+
+
