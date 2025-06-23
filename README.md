@@ -106,5 +106,33 @@ client.close()
 ![Снимок экрана (1101)](https://github.com/user-attachments/assets/3cc3c0e9-2633-429f-8088-a9eabfcd6dea)
 
 
+## Задание 5*. Работа с числами
 
+## Запишите в Redis ключ key5 со значением типа "int" равным числу 5. Увеличьте его на 5, чтобы в итоге в значении лежало число 10.
 
+Приведите скриншот, где будут проделаны все операции и будет видно, что значение key5 стало равно 10.
+
+## Ответ:
+
+```
+import redis
+
+# Подключение к Redis (укажите свои параметры, если необходимо)
+redis_client = redis.Redis(host='localhost', port=6379, db=0)
+
+# Запись ключа key5 со значением 5
+redis_client.set('key5', 5)
+
+# Увеличение значения ключа key5 на 5
+redis_client.incr('key5', 5)
+
+# Получение текущего значения ключа key5 (для проверки)
+current_value = redis_client.get('key5')
+
+print(f"Текущее значение ключа key5: {current_value}")
+
+```
+
+![Снимок экрана (1102)](https://github.com/user-attachments/assets/c820b008-563a-41eb-be2b-3559a380bd30)
+
+![Снимок экрана (1103)](https://github.com/user-attachments/assets/524b3bda-5f91-4647-afd2-53950bc22123)
